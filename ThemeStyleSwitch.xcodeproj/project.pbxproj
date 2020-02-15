@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740BB99B23F699AE0058C86E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740BB99A23F699AE0058C86E /* RootViewController.m */; };
+		7429CD2D23F578D8001A3511 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7429CD2C23F578D8001A3511 /* AppDelegate.m */; };
+		7429CD3023F578D8001A3511 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7429CD2F23F578D8001A3511 /* SceneDelegate.m */; };
+		7429CD3323F578D8001A3511 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7429CD3223F578D8001A3511 /* ViewController.m */; };
+		7429CD3623F578D8001A3511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7429CD3423F578D8001A3511 /* Main.storyboard */; };
+		7429CD3823F578D9001A3511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7429CD3723F578D9001A3511 /* Assets.xcassets */; };
+		7429CD3B23F578D9001A3511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7429CD3923F578D9001A3511 /* LaunchScreen.storyboard */; };
+		7429CD3E23F578D9001A3511 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7429CD3D23F578D9001A3511 /* main.m */; };
+		7429CD4823F578D9001A3511 /* ThemeStyleSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7429CD4723F578D9001A3511 /* ThemeStyleSwitchTests.m */; };
+		7429CD5323F578D9001A3511 /* ThemeStyleSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7429CD5223F578D9001A3511 /* ThemeStyleSwitchUITests.m */; };
+		7429CD6523F65551001A3511 /* ThemeStyleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7429CD6423F65551001A3511 /* ThemeStyleManager.m */; };
+		7429CD6823F65B8E001A3511 /* ThemeColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7429CD6723F65B8E001A3511 /* ThemeColorModel.m */; };
+		7453D46123F6A2AD005ED172 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453D46023F6A2AD005ED172 /* FirstViewController.m */; };
+		7453D46423F6A2BF005ED172 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7453D46323F6A2BF005ED172 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7429CD4423F578D9001A3511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7429CD2023F578D8001A3511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7429CD2723F578D8001A3511;
+			remoteInfo = ThemeStyleSwitch;
+		};
+		7429CD4F23F578D9001A3511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7429CD2023F578D8001A3511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7429CD2723F578D8001A3511;
+			remoteInfo = ThemeStyleSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		740BB99923F699AE0058C86E /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		740BB99A23F699AE0058C86E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7429CD2823F578D8001A3511 /* ThemeStyleSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemeStyleSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7429CD2B23F578D8001A3511 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7429CD2C23F578D8001A3511 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7429CD2E23F578D8001A3511 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7429CD2F23F578D8001A3511 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7429CD3123F578D8001A3511 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7429CD3223F578D8001A3511 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7429CD3523F578D8001A3511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7429CD3723F578D9001A3511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7429CD3A23F578D9001A3511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7429CD3C23F578D9001A3511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7429CD3D23F578D9001A3511 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7429CD4323F578D9001A3511 /* ThemeStyleSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeStyleSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7429CD4723F578D9001A3511 /* ThemeStyleSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeStyleSwitchTests.m; sourceTree = "<group>"; };
+		7429CD4923F578D9001A3511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7429CD4E23F578D9001A3511 /* ThemeStyleSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeStyleSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7429CD5223F578D9001A3511 /* ThemeStyleSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeStyleSwitchUITests.m; sourceTree = "<group>"; };
+		7429CD5423F578D9001A3511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7429CD6323F65551001A3511 /* ThemeStyleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeStyleManager.h; sourceTree = "<group>"; };
+		7429CD6423F65551001A3511 /* ThemeStyleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeStyleManager.m; sourceTree = "<group>"; };
+		7429CD6623F65B8E001A3511 /* ThemeColorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThemeColorModel.h; sourceTree = "<group>"; };
+		7429CD6723F65B8E001A3511 /* ThemeColorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeColorModel.m; sourceTree = "<group>"; };
+		7453D45F23F6A2AD005ED172 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7453D46023F6A2AD005ED172 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7453D46223F6A2BF005ED172 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7453D46323F6A2BF005ED172 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7429CD2523F578D8001A3511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7429CD4023F578D9001A3511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7429CD4B23F578D9001A3511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7429CD1F23F578D8001A3511 = {
+			isa = PBXGroup;
+			children = (
+				7429CD2A23F578D8001A3511 /* ThemeStyleSwitch */,
+				7429CD4623F578D9001A3511 /* ThemeStyleSwitchTests */,
+				7429CD5123F578D9001A3511 /* ThemeStyleSwitchUITests */,
+				7429CD2923F578D8001A3511 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7429CD2923F578D8001A3511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7429CD2823F578D8001A3511 /* ThemeStyleSwitch.app */,
+				7429CD4323F578D9001A3511 /* ThemeStyleSwitchTests.xctest */,
+				7429CD4E23F578D9001A3511 /* ThemeStyleSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7429CD2A23F578D8001A3511 /* ThemeStyleSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				7429CD7023F697D7001A3511 /* Utils */,
+				7429CD6F23F696E8001A3511 /* ViewModels */,
+				7429CD6E23F696D8001A3511 /* Controllers */,
+				7429CD6D23F696D1001A3511 /* Views */,
+				7429CD6C23F696C4001A3511 /* Models */,
+				7429CD2B23F578D8001A3511 /* AppDelegate.h */,
+				7429CD2C23F578D8001A3511 /* AppDelegate.m */,
+				7429CD2E23F578D8001A3511 /* SceneDelegate.h */,
+				7429CD2F23F578D8001A3511 /* SceneDelegate.m */,
+				7429CD3123F578D8001A3511 /* ViewController.h */,
+				7429CD3223F578D8001A3511 /* ViewController.m */,
+				7429CD3423F578D8001A3511 /* Main.storyboard */,
+				7429CD3723F578D9001A3511 /* Assets.xcassets */,
+				7429CD3923F578D9001A3511 /* LaunchScreen.storyboard */,
+				7429CD3C23F578D9001A3511 /* Info.plist */,
+				7429CD3D23F578D9001A3511 /* main.m */,
+			);
+			path = ThemeStyleSwitch;
+			sourceTree = "<group>";
+		};
+		7429CD4623F578D9001A3511 /* ThemeStyleSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				7429CD4723F578D9001A3511 /* ThemeStyleSwitchTests.m */,
+				7429CD4923F578D9001A3511 /* Info.plist */,
+			);
+			path = ThemeStyleSwitchTests;
+			sourceTree = "<group>";
+		};
+		7429CD5123F578D9001A3511 /* ThemeStyleSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7429CD5223F578D9001A3511 /* ThemeStyleSwitchUITests.m */,
+				7429CD5423F578D9001A3511 /* Info.plist */,
+			);
+			path = ThemeStyleSwitchUITests;
+			sourceTree = "<group>";
+		};
+		7429CD6C23F696C4001A3511 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7429CD6623F65B8E001A3511 /* ThemeColorModel.h */,
+				7429CD6723F65B8E001A3511 /* ThemeColorModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7429CD6D23F696D1001A3511 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7429CD6E23F696D8001A3511 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				740BB99923F699AE0058C86E /* RootViewController.h */,
+				740BB99A23F699AE0058C86E /* RootViewController.m */,
+				7453D45F23F6A2AD005ED172 /* FirstViewController.h */,
+				7453D46023F6A2AD005ED172 /* FirstViewController.m */,
+				7453D46223F6A2BF005ED172 /* SecondViewController.h */,
+				7453D46323F6A2BF005ED172 /* SecondViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7429CD6F23F696E8001A3511 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7429CD7023F697D7001A3511 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7429CD6323F65551001A3511 /* ThemeStyleManager.h */,
+				7429CD6423F65551001A3511 /* ThemeStyleManager.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7429CD2723F578D8001A3511 /* ThemeStyleSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7429CD5723F578D9001A3511 /* Build configuration list for PBXNativeTarget "ThemeStyleSwitch" */;
+			buildPhases = (
+				7429CD2423F578D8001A3511 /* Sources */,
+				7429CD2523F578D8001A3511 /* Frameworks */,
+				7429CD2623F578D8001A3511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThemeStyleSwitch;
+			productName = ThemeStyleSwitch;
+			productReference = 7429CD2823F578D8001A3511 /* ThemeStyleSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7429CD4223F578D9001A3511 /* ThemeStyleSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7429CD5A23F578D9001A3511 /* Build configuration list for PBXNativeTarget "ThemeStyleSwitchTests" */;
+			buildPhases = (
+				7429CD3F23F578D9001A3511 /* Sources */,
+				7429CD4023F578D9001A3511 /* Frameworks */,
+				7429CD4123F578D9001A3511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7429CD4523F578D9001A3511 /* PBXTargetDependency */,
+			);
+			name = ThemeStyleSwitchTests;
+			productName = ThemeStyleSwitchTests;
+			productReference = 7429CD4323F578D9001A3511 /* ThemeStyleSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7429CD4D23F578D9001A3511 /* ThemeStyleSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7429CD5D23F578D9001A3511 /* Build configuration list for PBXNativeTarget "ThemeStyleSwitchUITests" */;
+			buildPhases = (
+				7429CD4A23F578D9001A3511 /* Sources */,
+				7429CD4B23F578D9001A3511 /* Frameworks */,
+				7429CD4C23F578D9001A3511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7429CD5023F578D9001A3511 /* PBXTargetDependency */,
+			);
+			name = ThemeStyleSwitchUITests;
+			productName = ThemeStyleSwitchUITests;
+			productReference = 7429CD4E23F578D9001A3511 /* ThemeStyleSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7429CD2023F578D8001A3511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = wdyzmx;
+				TargetAttributes = {
+					7429CD2723F578D8001A3511 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					7429CD4223F578D9001A3511 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 7429CD2723F578D8001A3511;
+					};
+					7429CD4D23F578D9001A3511 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 7429CD2723F578D8001A3511;
+					};
+				};
+			};
+			buildConfigurationList = 7429CD2323F578D8001A3511 /* Build configuration list for PBXProject "ThemeStyleSwitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7429CD1F23F578D8001A3511;
+			productRefGroup = 7429CD2923F578D8001A3511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7429CD2723F578D8001A3511 /* ThemeStyleSwitch */,
+				7429CD4223F578D9001A3511 /* ThemeStyleSwitchTests */,
+				7429CD4D23F578D9001A3511 /* ThemeStyleSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7429CD2623F578D8001A3511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7429CD3B23F578D9001A3511 /* LaunchScreen.storyboard in Resources */,
+				7429CD3823F578D9001A3511 /* Assets.xcassets in Resources */,
+				7429CD3623F578D8001A3511 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7429CD4123F578D9001A3511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7429CD4C23F578D9001A3511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7429CD2423F578D8001A3511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7453D46423F6A2BF005ED172 /* SecondViewController.m in Sources */,
+				7429CD3323F578D8001A3511 /* ViewController.m in Sources */,
+				740BB99B23F699AE0058C86E /* RootViewController.m in Sources */,
+				7429CD2D23F578D8001A3511 /* AppDelegate.m in Sources */,
+				7429CD3E23F578D9001A3511 /* main.m in Sources */,
+				7429CD6823F65B8E001A3511 /* ThemeColorModel.m in Sources */,
+				7429CD3023F578D8001A3511 /* SceneDelegate.m in Sources */,
+				7429CD6523F65551001A3511 /* ThemeStyleManager.m in Sources */,
+				7453D46123F6A2AD005ED172 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7429CD3F23F578D9001A3511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7429CD4823F578D9001A3511 /* ThemeStyleSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7429CD4A23F578D9001A3511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7429CD5323F578D9001A3511 /* ThemeStyleSwitchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7429CD4523F578D9001A3511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7429CD2723F578D8001A3511 /* ThemeStyleSwitch */;
+			targetProxy = 7429CD4423F578D9001A3511 /* PBXContainerItemProxy */;
+		};
+		7429CD5023F578D9001A3511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7429CD2723F578D8001A3511 /* ThemeStyleSwitch */;
+			targetProxy = 7429CD4F23F578D9001A3511 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7429CD3423F578D8001A3511 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7429CD3523F578D8001A3511 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7429CD3923F578D9001A3511 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7429CD3A23F578D9001A3511 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7429CD5523F578D9001A3511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7429CD5623F578D9001A3511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7429CD5823F578D9001A3511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKN88ZK5LF;
+				INFOPLIST_FILE = ThemeStyleSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdyzmx.ThemeStyleSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7429CD5923F578D9001A3511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKN88ZK5LF;
+				INFOPLIST_FILE = ThemeStyleSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdyzmx.ThemeStyleSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7429CD5B23F578D9001A3511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKN88ZK5LF;
+				INFOPLIST_FILE = ThemeStyleSwitchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdyzmx.ThemeStyleSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemeStyleSwitch.app/ThemeStyleSwitch";
+			};
+			name = Debug;
+		};
+		7429CD5C23F578D9001A3511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKN88ZK5LF;
+				INFOPLIST_FILE = ThemeStyleSwitchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdyzmx.ThemeStyleSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemeStyleSwitch.app/ThemeStyleSwitch";
+			};
+			name = Release;
+		};
+		7429CD5E23F578D9001A3511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKN88ZK5LF;
+				INFOPLIST_FILE = ThemeStyleSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdyzmx.ThemeStyleSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThemeStyleSwitch;
+			};
+			name = Debug;
+		};
+		7429CD5F23F578D9001A3511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKN88ZK5LF;
+				INFOPLIST_FILE = ThemeStyleSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdyzmx.ThemeStyleSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThemeStyleSwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7429CD2323F578D8001A3511 /* Build configuration list for PBXProject "ThemeStyleSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7429CD5523F578D9001A3511 /* Debug */,
+				7429CD5623F578D9001A3511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7429CD5723F578D9001A3511 /* Build configuration list for PBXNativeTarget "ThemeStyleSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7429CD5823F578D9001A3511 /* Debug */,
+				7429CD5923F578D9001A3511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7429CD5A23F578D9001A3511 /* Build configuration list for PBXNativeTarget "ThemeStyleSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7429CD5B23F578D9001A3511 /* Debug */,
+				7429CD5C23F578D9001A3511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7429CD5D23F578D9001A3511 /* Build configuration list for PBXNativeTarget "ThemeStyleSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7429CD5E23F578D9001A3511 /* Debug */,
+				7429CD5F23F578D9001A3511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7429CD2023F578D8001A3511 /* Project object */;
+}
